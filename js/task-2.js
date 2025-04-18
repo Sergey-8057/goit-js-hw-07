@@ -38,7 +38,5 @@ function imagesTemplate(images) {
 }
 
 const markup = imagesTemplate(images);
-console.log(markup);
-
 const ulElem = document.querySelector('.gallery');
 ulElem.insertAdjacentHTML('beforeend', markup);
